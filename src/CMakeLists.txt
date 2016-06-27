@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5.2)
 
-project (hello)
+project (TestBed)
 
-add_executable(hello helloworld.cpp)
+add_executable(TestBed helloworld.cpp)

@@ -1,3 +1,0 @@
-E:/users/jie/projects/TestBed/build/VS2013x64/CMakeFiles/hello.dir
-E:/users/jie/projects/TestBed/build/VS2013x64/CMakeFiles/ALL_BUILD.dir
-E:/users/jie/projects/TestBed/build/VS2013x64/CMakeFiles/ZERO_CHECK.dir
