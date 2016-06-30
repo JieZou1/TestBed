@@ -16,6 +16,7 @@ set (HEADERS
 set (SOURCES 
 		OpenCVEx.cpp
 	)
+	
 set (LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 add_library(OpenCVEx SHARED ${SOURCES} ${HEADERS})
 target_link_libraries(OpenCVEx ${OpenCV_LIBS})

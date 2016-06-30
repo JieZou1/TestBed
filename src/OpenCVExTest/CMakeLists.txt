@@ -1,6 +1,7 @@
 project(OpenCVExTest)
 
 find_package(OpenCV REQUIRED)
+#find_package(Caffe REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 #file(GLOB SOURCES "*.cpp")
@@ -19,9 +20,9 @@ target_link_libraries(OpenCVExTest OpenCVEx)
 
 #set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules")
 
-MESSAGE("OpenCV_DIR: ${OpenCV_DIR}")
-MESSAGE("OpenCV_LIBS: ${OpenCV_LIBS}")
-MESSAGE("OpenCV_LIB_COMPONENTS: ${OpenCV_LIB_COMPONENTS}")
+#MESSAGE("OpenCV_DIR: ${OpenCV_DIR}")
+#MESSAGE("OpenCV_LIBS: ${OpenCV_LIBS}")
+#MESSAGE("OpenCV_LIB_COMPONENTS: ${OpenCV_LIB_COMPONENTS}")
 
 # add_custom_command(TARGET OpenCVExTest POST_BUILD
     # COMMAND ${CMAKE_COMMAND} -E copy_if_different
