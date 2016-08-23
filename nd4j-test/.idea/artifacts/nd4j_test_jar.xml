@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="nd4j-test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/nd4j_test_jar</output-path>
+    <root id="archive" name="nd4j-test.jar">
+      <element id="module-output" name="nd4j-test" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
